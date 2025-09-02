@@ -54,6 +54,8 @@ poly_model.fit(x_train,y_train)
 y_pred_poly=poly_model.predict(x_test)
 
 # Evaluate models
+print("Name: ")
+print("Reg no: ")
 print("Linear Regression:")
 print(f"MSE: {mean_squared_error(y_test,y_pred_linear):.2f}")
 print(f"R2: {r2_score(y_test,y_pred_linear):.2f}")
@@ -77,7 +79,7 @@ plt.show()
 ## Output:
 
 <img width="931" height="595" alt="Screenshot 2025-09-02 184223" src="https://github.com/user-attachments/assets/d93f00b9-f42f-4f1e-883f-3bc2c469af91" />
-<img width="237" height="82" alt="Screenshot 2025-09-02 184237" src="https://github.com/user-attachments/assets/77bec5c0-e453-4777-a02a-12a968ee9640" />
+<img width="268" height="124" alt="Screenshot 2025-09-02 190257" src="https://github.com/user-attachments/assets/4ed0c1b9-6f76-4150-a76a-405af93f62c1" />
 <img width="282" height="89" alt="Screenshot 2025-09-02 184245" src="https://github.com/user-attachments/assets/8bcfa13e-fb6b-4cee-9057-f08f1964559b" />
 <img width="1393" height="732" alt="Screenshot 2025-09-02 184258" src="https://github.com/user-attachments/assets/1f19b4af-893d-464d-9df4-74291666f319" />
 
